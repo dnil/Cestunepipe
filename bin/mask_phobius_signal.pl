@@ -1,4 +1,11 @@
 #!/usr/bin/perl -w
+#
+# Mask phobius signal
+#
+# X out phobius matches. 
+#
+# Usage: mask_phobius_signal.pl fastafile phobius_long_motifs
+#
 
 my $fastafile = $ARGV[0];
 my $phobius_long = $ARGV[1];

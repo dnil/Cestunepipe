@@ -1,4 +1,9 @@
 #!/usr/bin/perl -w
+#
+# Join nearby hits.
+#
+# Presumably used for assessing nearby lbd and memb domains..
+#
 
 my $cutoff = 4000;
 
