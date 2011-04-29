@@ -1,0 +1,24 @@
+Cestunepipe - find genes with defined peptide motif in draft nucleotide sequence
+
+(c) Daniel Nilsson 2009-2011. 
+
+Released under the Perl Artistic License 2.0.
+
+Some of the main programs have embedded Plain Old Documentation. 
+Use e.g. perldoc or the pod2* programs (pod2html, pod2man, pod2txt, ...)
+to view these.
+
+The main pipe is called as search_profile_matching_genes.sh.
+
+ perldoc search_profile_matching_genes.sh
+ perldoc pipelinefunk.sh
+ perldoc seqfunk.pm
+
+Find sequenes bearing a given motif in genomic draft seqeucence. Uses
+GeneWise after some non-stringent blast filtering of contigs (split
+into performance-wise convenient pieces), well knowing the author of
+GeneWise might not have approved. Classifies the predicted peptides by
+means of phylogenetic tree construction over the extracted motif with
+a reference seed set.
+
+Contact: daniel.nilsson.NO\/SPAM.scilifelab.se, daniel.nilsson.NO\/SPAM.ki.se, daniel.nilsson.NO\/SPAM.izb.unibe.ch, daniel.k.nilsson.NO\/SPAM.gmail.com
